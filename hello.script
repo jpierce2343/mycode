@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Prompt user to enter their name
+read -p "Enter your name: " name
+
+# Greet the user
+echo "Hello, $name! Have a great day!"
