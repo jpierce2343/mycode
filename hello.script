@@ -1,7 +1,8 @@
-#!/bin/bash
+#!/usr/bin/python3
+
+name = input("Enter your name: ")
 
 # Prompt user to enter their name
-read -p "Enter your name: " name
 
 # Greet the user
-echo "Hello, $name! Have a great day!"
+print("Hello, {}! Have a great day!".format(name))
