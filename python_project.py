@@ -1,6 +1,5 @@
 #!/usr/bin/env python3         ## python_project.py
 ## Dictionaries set for user input
-import pyfiglet
 weapon= ["daniel defense", "sig", "bcm", "knight's armament"]
 
 a= weapon[0]
@@ -20,6 +19,15 @@ muzzle= ["suppressed", "flash hider"]
 a= muzzle[0]
 b= muzzle[1]
 
+art= {r"""
+
+                           ______
+        |\_______________ (_____\\______________
+HH======#H###############H#######################
+        ' ~""""""""""""""`##(_))#H\"""""Y########
+                          ))    \#H\       `"Y###
+                          "      }#H)
+                          """}
 def main():
 # Choose first item
     print("choose a weapon (a, b, c, or d)")
@@ -39,5 +47,7 @@ def main():
 # Print out rifle combination
     print(f"Your rifle is {weapon_choice} with {optic_choice} and {muzzle_choice}")
 
-    print(ascii.file)
-main()
+    print(art)    
+
+if __name__ == "__main__":
+    main()
