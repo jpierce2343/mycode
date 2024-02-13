@@ -1,6 +1,6 @@
 #!/usr/bin/env python3         ## python_project.py
 ## Dictionaries set for user input
-import crayons
+import pyfiglet
 weapon= ["daniel defense", "sig", "bcm", "knight's armament"]
 
 a= weapon[0]
@@ -37,9 +37,7 @@ def main():
     muzzle_choice = muzzle[ord(choice) - ord('a')]
 
 # Print out rifle combination
-    print(f"{crayons.red('Your rifle is {weapon_choice} with {optic_choice} and {muzzle_choice}')}")
+    print(f"Your rifle is {weapon_choice} with {optic_choice} and {muzzle_choice}")
 
-
-
-
+    print(ascii.file)
 main()
