@@ -19,15 +19,15 @@ muzzle= ["suppressed", "flash hider"]
 a= muzzle[0]
 b= muzzle[1]
 
-art= {r"""
+art =((r"""
 
                            ______
         |\_______________ (_____\\______________
 HH======#H###############H#######################
         ' ~""""""""""""""`##(_))#H\"""""Y########
-                          ))    \#H\       `"Y###
+                          ||    \#H\       `"Y###
                           "      }#H)
-                          """}
+                          """))
 def main():
 # Choose first item
     print("choose a weapon (a, b, c, or d)")
